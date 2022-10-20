@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<!-- This website template was created by: Christopher Deleon -->
+<html lang="en">
+<head>
+
+	<title> Forward Fitness Club</title>
+	<link rel="manifest" href="./manifest.json">
+    <script>
+        if ("serviceWorker" in navigator) {
+            navigator.serviceWorker.register("sw.js");
+        }
+    </script>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/styles.css">
+	<meta name="description" content="The Forward Fitness Club is an elite fitness center dedicated to helping clients achieve their fitness and nutrition goals.">
+	<link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Roboto+Slab&display=swap" rel="stylesheet">
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="icon" type="images/png" sizes="32x32" href="images/favicon-32.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+	<link rel="icon" sizes="192x192" href="images/android-chrome-192.png">
+</head>
+<body>
+
+	<div id="container">
+	
+		<!-- Mobile Nav --> 
+		<nav class="mobile-nav">
+			<div id="menu-links">
+				<a href="index.html">Inicio</a>
+				<a href="about.html">Sobre nosotros</a>
+				<a href="classes.html">Classes</a>
+				<a href="nutrition.html">Nutricion</a>
+				
+			</div>
+			
+			<a class="menu-icon" onclick="hamburger()">
+				<div>&#9776;</div>
+			</a>
+		</nav>
+			
+		<!-- Use the header area for the website name or logo -->
+		<header id="ffc-logo">
+			<a href="index.html"><img src="images/forward-fitness-logo.png" alt="Forward Fitness Club logo"></a>
+		</header>
+
+		<!-- Tablet, Desktop Nav -->
+		<nav class="tablet-desktop">
+			<ul>
+				<li><a href="index.html">Inicio</a></li> 
+				<li><a href="about.html">Sobre Nosotros</a></li> 
+				<li><a href="classes.html">Clases</a></li> 
+				<li><a href="nutrition.html">Nutricion</a></li> 
+				
+			</ul>
+		</nav>
+		
+		<!-- Hero Image -->
+		<div id="hero" class="tablet-desktop">
+			<img src="images/hero-image.jpg" alt="left arm extended holding a weight">
+		</div>
+		<!-- Use the main area to add the main content of the webpage -->
+		<main>
+		
+		
+		<div class="mobile">
+		
+			<p>Bienvenido a Fitness Club. Nuestra misión es ayudar a nuestros clientes a alcanzar sus objetivos de fitness y nutrición. </p>
+			
+			<h3>¡Membresía de prueba GRATIS de una semana!</h3>
+			<p>Call Us Today to Get Started</p>
+			<p class="tel-link"><a href="tel:7228402603">(+52) 7228402903</a></p>
+			
+			<h4>Horario del gimnasio:</h4>
+			<ul class="hours">
+				<li>Lun-Jue: 6:00am-6:00pm</li>
+				<li>Viernes: 6:00am-4:00pm</li>
+				<li>Sabado: 8:00am-6:00pm</li>
+				<li>Domingo: Cerrado</li>
+			</ul>
+			
+		</div>
+		
+		<div class="tablet-desktop">
+		
+			<p>Bienvenido a Fitness Club. Nuestra misión es ayudar a nuestros clientes a alcanzar sus objetivos de fitness y nutrición.</p>
+			
+			<p>Si ha tenido problemas para estar saludable y necesita la motivación y los recursos para hacer un cambio de estilo de vida saludable, contáctenos hoy. Nuestras instalaciones incluyen equipos de última generación, prácticas clases de capacitación en grupo y consejos e información sobre nutrición para mantenerlo saludable.</p>
+			
+		</div>
+		
+		<div class="grid">
+		
+		<figure class="frame">
+			<a href="classes.html"><img src="images/fitness-group.jpg" alt="group of fitness people"></a>
+			<figcaption class="pic-text">Grupo Fitness</figcaption>
+		</figure>
+		
+		<figure class="frame">
+			<a href="nutrition.html"><img src="images/food-heart.jpg" alt="healthy food in the shape of a heart"></a>
+			<figcaption class="pic-text">Planes de alimentación</figcaption>
+		</figure>
+		
+		
+		</div>
+		
+		</main>
+		
+		<!-- Use the footer area to add webpage footer content -->
+		<footer>
+		
+			<div class="copyright">
+				<p>&copy; Copyright 2021. Carlos Uriel Sanchez.</p>
+			
+			</div>
+			
+		</footer>
+		
+	</div>
+	
+	<script src="scripts/script.js"></script>
+	
+</body>
+</html>
